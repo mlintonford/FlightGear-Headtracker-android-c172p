@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+   <generic>
+      <input>
+         <binary_mode>true</binary_mode>
+         <binary_footer>none</binary_footer>
+         <byte_order>host</byte_order>
+         <record_length>52</record_length>
+
+         <chunk>
+            <name>x</name>
+            <type>double</type>
+            <node></node>
+         </chunk>
+
+         <chunk>
+            <name>y</name>
+            <type>double</type>
+            <node></node>
+         </chunk>
+
+         <chunk>
+            <name>z</name>
+            <type>double</type>
+            <node></node>
+         </chunk>
+		 
+		 
+		 <chunk>
+            <name>yaw</name>
+            <type>double</type>
+            <node>/sim/headtracker/roll-deg</node>
+         </chunk>
+
+         <chunk>
+            <name>pitch</name>
+            <type>double</type>
+            <node>/sim/headtracker/pitch-deg</node>
+         </chunk>
+
+         <chunk>
+            <name>roll</name>
+            <type>double</type>
+            <node>/sim/headtracker/heading-deg</node>
+         </chunk>
+      </input>
+   </generic>
+</PropertyList>
